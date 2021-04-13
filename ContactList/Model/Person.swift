@@ -13,6 +13,9 @@ struct Person {
     let ferstName: String
     let email: String
     let phone: String
+    var fullName: String {
+        "\(name) \(ferstName)"
+    }
     
     static func createUniquePersonas(dataManager: DataManager) -> [Person] {
         var persons = [Person]()
