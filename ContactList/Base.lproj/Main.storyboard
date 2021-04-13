@@ -87,7 +87,7 @@
         <!--Item-->
         <scene sceneID="bOQ-H3-SWE">
             <objects>
-                <tableViewController id="E8d-hY-kpP" sceneMemberID="viewController">
+                <tableViewController id="E8d-hY-kpP" customClass="SectionContactsViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YQO-zD-1ST">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

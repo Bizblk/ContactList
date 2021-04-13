@@ -16,6 +16,7 @@
 		147137362624DB01006D70C3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147137352624DB01006D70C3 /* DataManager.swift */; };
 		1471373A262623A1006D70C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14713739262623A1006D70C3 /* DetailViewController.swift */; };
 		1471374526263359006D70C3 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471374426263359006D70C3 /* ContactsViewController.swift */; };
+		1471374826263CF1006D70C3 /* SectionContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471374726263CF1006D70C3 /* SectionContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		147137352624DB01006D70C3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		14713739262623A1006D70C3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1471374426263359006D70C3 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		1471374726263CF1006D70C3 /* SectionContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				14713739262623A1006D70C3 /* DetailViewController.swift */,
 				1471374426263359006D70C3 /* ContactsViewController.swift */,
+				1471374726263CF1006D70C3 /* SectionContactsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				147137332624DA76006D70C3 /* Person.swift in Sources */,
 				147137362624DB01006D70C3 /* DataManager.swift in Sources */,
+				1471374826263CF1006D70C3 /* SectionContactsViewController.swift in Sources */,
 				1471373A262623A1006D70C3 /* DetailViewController.swift in Sources */,
 				147137182624D636006D70C3 /* AppDelegate.swift in Sources */,
 				1471371A2624D636006D70C3 /* SceneDelegate.swift in Sources */,
