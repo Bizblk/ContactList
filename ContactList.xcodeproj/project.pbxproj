@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		147137182624D636006D70C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147137172624D636006D70C3 /* AppDelegate.swift */; };
 		1471371A2624D636006D70C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147137192624D636006D70C3 /* SceneDelegate.swift */; };
-		1471371C2624D636006D70C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471371B2624D636006D70C3 /* ViewController.swift */; };
 		1471371F2624D636006D70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1471371D2624D636006D70C3 /* Main.storyboard */; };
 		147137212624D637006D70C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147137202624D637006D70C3 /* Assets.xcassets */; };
 		147137242624D637006D70C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147137222624D637006D70C3 /* LaunchScreen.storyboard */; };
+		147137332624DA76006D70C3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147137322624DA76006D70C3 /* Person.swift */; };
+		147137362624DB01006D70C3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147137352624DB01006D70C3 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		147137142624D636006D70C3 /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147137172624D636006D70C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		147137192624D636006D70C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1471371B2624D636006D70C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1471371E2624D636006D70C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		147137202624D637006D70C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147137232624D637006D70C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147137252624D637006D70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147137322624DA76006D70C3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		147137352624DB01006D70C3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				147137172624D636006D70C3 /* AppDelegate.swift */,
 				147137192624D636006D70C3 /* SceneDelegate.swift */,
-				1471371B2624D636006D70C3 /* ViewController.swift */,
+				147137352624DB01006D70C3 /* DataManager.swift */,
+				147137302624DA2F006D70C3 /* Model */,
 				1471371D2624D636006D70C3 /* Main.storyboard */,
 				147137202624D637006D70C3 /* Assets.xcassets */,
 				147137222624D637006D70C3 /* LaunchScreen.storyboard */,
 				147137252624D637006D70C3 /* Info.plist */,
 			);
 			path = ContactList;
+			sourceTree = "<group>";
+		};
+		147137302624DA2F006D70C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				147137322624DA76006D70C3 /* Person.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1471371C2624D636006D70C3 /* ViewController.swift in Sources */,
+				147137332624DA76006D70C3 /* Person.swift in Sources */,
+				147137362624DB01006D70C3 /* DataManager.swift in Sources */,
 				147137182624D636006D70C3 /* AppDelegate.swift in Sources */,
 				1471371A2624D636006D70C3 /* SceneDelegate.swift in Sources */,
 			);
