@@ -84,7 +84,7 @@
             </objects>
             <point key="canvasLocation" x="3211.594202898551" y="156.69642857142856"/>
         </scene>
-        <!--Item-->
+        <!--Contacts-->
         <scene sceneID="bOQ-H3-SWE">
             <objects>
                 <tableViewController id="E8d-hY-kpP" customClass="SectionContactsViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
@@ -107,17 +107,17 @@
                             <outlet property="delegate" destination="E8d-hY-kpP" id="Gd7-V8-xGh"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="person.3.fill" catalog="system" id="77D-4f-16c"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person.3.fill" catalog="system" selectedImage="person.3.fill" id="77D-4f-16c"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRD-DJ-GqP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="557" y="868"/>
         </scene>
-        <!--Item-->
+        <!--Contacts-->
         <scene sceneID="sgf-OH-ZgT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rTT-1Q-XaV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="person.3" catalog="system" id="GsM-ao-su5"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person.3" catalog="system" selectedImage="person.3" id="GsM-ao-su5"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="5YI-0y-dl7"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gK5-fQ-AZx">
@@ -133,11 +133,11 @@
             </objects>
             <point key="canvasLocation" x="1466.6666666666667" y="156.69642857142856"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="dzu-Uq-sZi">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1iS-N3-RwQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="q1U-Gp-I2s" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="q1U-Gp-I2s" customClass="MainViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4nG-CM-Uzf">
                         <autoresizingMask key="autoresizingMask"/>

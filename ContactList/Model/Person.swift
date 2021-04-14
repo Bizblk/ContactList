@@ -20,20 +20,16 @@ struct Person {
     static func createUniquePersonas(dataManager: DataManager) -> [Person] {
         var persons = [Person]()
         
-        var names = dataManager.names
-        var familys = dataManager.familys
-        var emails = dataManager.emails
-        var phones = dataManager.phones
+        var names = dataManager.names.shuffled()
+        var familys = dataManager.familys.shuffled()
+        var emails = dataManager.emails.shuffled()
+        var phones = dataManager.phones.shuffled()
         
         for _ in 1...10 {
-            persons.append(Person(name: names.shuffled().first ?? "n",
-                                  ferstName: familys.shuffled().first ?? "f",
-                                  email: emails.shuffled().first ?? "e",
-                                  phone: phones.shuffled().first ?? "p"))
-            names.removeFirst()
-            familys.removeFirst()
-            emails.removeFirst()
-            phones.removeFirst()
+            persons.append(Person(name: names.removeFirst(),
+                                  ferstName: familys.removeFirst(),
+                                  email: emails.removeFirst(),
+                                  phone: phones.removeFirst()))
         }
         
         

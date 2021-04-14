@@ -12,7 +12,7 @@ class DataManager {
     let names = ["Allan", "Damon", "Anthony", "Job", "Chester",
                  "Marcia", "Felicia", "Andrea", "Gladys", "Julie"]
     let familys = ["Franklin", "Washington", "Thomas", "Austin", "Shelton",
-                  "Owen", "Kelley", "Stanley", "Fields", "Hunter"]
+                   "Owen", "Kelley", "Stanley", "Fields", "Hunter"]
     let emails = ["teverett@hotmail.com", "eurohack@me.com", "johndo@sbcglobal.net",
                   "mchugh@live.com", "morain@yahoo.com", "tamas@hotmail.com",
                   "dougj@comcast.net", "jgoerzen@comcast.net", "staffelb@msn.com",
@@ -22,27 +22,6 @@ class DataManager {
                   "+ 528(1018)171-76-27074", "+ 787(7082)249-24-38945",
                   "+ 121(8966)375-10-04880", "+ 46(6448)721-09-82457",
                   "+ 276(7639)476-31-54020", "+ 891(6351)493-39-75451"]
-    
-    
-    
-    
-    
-    func createUniquePersonas() -> [Person] {
-        var persons = [Person]()
-        var namesValue = names
-        
-        for _ in 1...10 {
-            persons.append(Person(name: namesValue.shuffled().first ?? "n",
-                                  ferstName: familys.shuffled().first ?? "f",
-                                  email: emails.shuffled().first ?? "e",
-                                  phone: phones.shuffled().first ?? "p"))
-            namesValue.removeFirst()
-        }
-        
-        
-        return persons
-    }
-    
 }
 
 
