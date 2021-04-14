@@ -38,7 +38,7 @@ class SectionContactsViewController: UITableViewController {
             content.text = contact.email
             content.image = UIImage(systemName: "envelope.fill")
         }
-        cell.backgroundColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+        cell.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
 
         cell.contentConfiguration = content
         
