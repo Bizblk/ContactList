@@ -11,7 +11,7 @@ class DataManager {
     
     let names = ["Allan", "Damon", "Anthony", "Job", "Chester",
                  "Marcia", "Felicia", "Andrea", "Gladys", "Julie"]
-    let familys = ["Franklin", "Washington", "Thomas", "Austin", "Shelton",
+    let surnames = ["Franklin", "Washington", "Thomas", "Austin", "Shelton",
                    "Owen", "Kelley", "Stanley", "Fields", "Hunter"]
     let emails = ["teverett@hotmail.com", "eurohack@me.com", "johndo@sbcglobal.net",
                   "mchugh@live.com", "morain@yahoo.com", "tamas@hotmail.com",

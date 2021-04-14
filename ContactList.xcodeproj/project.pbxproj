@@ -68,7 +68,7 @@
 			children = (
 				147137172624D636006D70C3 /* AppDelegate.swift */,
 				147137192624D636006D70C3 /* SceneDelegate.swift */,
-				147137352624DB01006D70C3 /* DataManager.swift */,
+				1471374D262779AE006D70C3 /* Managers */,
 				1471373826262358006D70C3 /* Controllers */,
 				147137302624DA2F006D70C3 /* Model */,
 				1471371D2624D636006D70C3 /* Main.storyboard */,
@@ -96,6 +96,14 @@
 				1471374726263CF1006D70C3 /* SectionContactsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1471374D262779AE006D70C3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				147137352624DB01006D70C3 /* DataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
