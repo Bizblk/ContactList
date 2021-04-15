@@ -23,10 +23,13 @@ class MainViewController: UITabBarController {
         guard let viewControllers = self.viewControllers else { return }
         for viewController in viewControllers {
             if let navigationVC = viewController as? UINavigationController {
-                let contactVC = navigationVC.topViewController as! ContactsViewController
-                contactVC.contacts = contacts
-            } else if let sectionVC = viewController as? SectionContactsViewController {
-                sectionVC.contacts = contacts
+                if let contactVC = navigationVC.topViewController as? ContactsViewController {
+                    contactVC.contacts = contacts
+                } else {
+                    if let sectionVC = navigationVC.topViewController as? SectionContactsViewController {
+                        sectionVC.contacts = contacts
+                    }
+                }
             }
         }
     }
